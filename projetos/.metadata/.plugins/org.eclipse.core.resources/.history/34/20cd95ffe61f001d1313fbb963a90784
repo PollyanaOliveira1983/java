@@ -1,0 +1,38 @@
+package Desafio01;
+
+import java.util.Locale;
+import java.util.Scanner;
+
+public class imposto {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		Locale.setDefault(Locale.US);
+		Scanner sc = new Scanner(System.in);
+		
+		double rendaAnual,prestacaoServico,ganhoCapital,gastoMedico,gastoEducacional,
+		impostoSalario,salario,porcentagem,impostoServico,impostoCapital,
+		abatimento,impostoBruto,impostoAbater,gastoDedutivel,impostoPagar,gastos;
+		
+		//Calculo do imposto sobre salario
+		
+		System.out.println("Renda anual com salário: ");
+		rendaAnual = sc.nextDouble();
+		
+		System.out.println("Renda anual com gasto de capital: ");
+		ganhoCapital = sc.nextDouble();
+		
+		System.out.println("Gastos médicos: ");
+		gastoMedico = sc.nextDouble();
+		
+		System.out.println("Gastos educacionais: ");
+		gastoEducacional = sc.nextDouble();
+		
+		salario = rendaAnual / 12;
+		
+		
+		sc.close();
+	}
+
+}

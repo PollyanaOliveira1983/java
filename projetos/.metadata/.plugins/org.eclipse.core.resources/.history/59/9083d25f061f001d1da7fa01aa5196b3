@@ -1,0 +1,36 @@
+package exerciciosEstruturaSequencial;
+
+import java.util.Locale;
+import java.util.Scanner;
+
+public class pagamento {
+
+	public static void main(String[] args) {
+		// Fazer um programa para ler o nome de um(a) funcionário(a), o valor que ele(a) recebe por hora, e a
+		//quantidade de horas trabalhadas por ele(a). Ao final, mostrar o valor do pagamento do funcionário com
+		//uma mensagem explicativa, conforme exemplo.
+		
+		Locale.setDefault(Locale.US);
+		Scanner sc = new Scanner(System.in);
+		
+		String nome;
+		double hora, pagamento;
+		int quantidadeHoras;
+		
+		System.out.print("Nome: ");
+		nome = sc.nextLine();
+		
+		System.out.print("Valor por hora: ");
+		hora = sc.nextDouble();
+		
+		System.out.print("Horas trabalhadas: ");
+		quantidadeHoras = sc.nextInt();
+		
+		pagamento = hora * quantidadeHoras;
+		
+		System.out.printf("O pagamento para %s deve ser %2.f\n", nome, pagamento);		
+		
+		sc.close();
+	}
+
+}

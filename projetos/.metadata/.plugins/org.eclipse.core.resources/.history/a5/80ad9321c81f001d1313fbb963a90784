@@ -1,0 +1,23 @@
+package exercicioEstruturasCondicionais;
+
+import java.util.Locale;
+import java.util.Scanner;
+
+public class multiplos {
+
+	public static void main(String[] args) {
+		// Fazer um programa para ler dois números inteiros, e dizer se um número é múltiplo do outro. Os
+		//números podem ser digitados em qualquer ordem.
+		
+		
+		Locale.setDefault(Locale.US);
+		Scanner sc = new Scanner(System.in);
+		
+		
+		
+		
+		sc.close();
+
+	}
+
+}

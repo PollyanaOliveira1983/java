@@ -1,0 +1,21 @@
+package exercicioEstruturasCondicionais;
+
+import java.util.Locale;
+import java.util.Scanner;
+
+public class baskara {
+
+	public static void main(String[] args) {
+		// Fazer um programa para ler os três coeficientes de uma equação do segundo grau. Usando a fórmula
+		//de Baskara, calcular e mostrar os valores das raízes x1 e x2 da equação com quatro casas decimais,
+		//conforme exemplo. Se a equação não possuir raízes reais, mostrar uma mensagem.
+
+		Locale.setDefault(Locale.US);
+		Scanner sc = new Scanner(System.in);
+		
+		
+		
+		sc.close();
+	}
+
+}
