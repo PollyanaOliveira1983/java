@@ -1,0 +1,13 @@
+package Desafio02;
+
+public class atletas {
+
+	public static void main(String[] args) {
+		
+		int n,i;
+		char nome,sexo,nomeMaisAlto;
+		double altura,peso,pMedio,altMulher,maisAlto,homem,pHomem,contMulher,mediaMulher;
+
+	}
+
+}

@@ -1,0 +1,25 @@
+package exerciciosEstruturasRepetitivas;
+
+import java.util.Locale;
+import java.util.Scanner;
+
+public class dentroFora {
+
+	public static void main(String[] args) {
+		//Leia um valor inteiro N. Este valor será a quantidade de valores inteiros X que serão lidos em seguida.
+		//Mostre quantos destes valores X estão dentro do intervalo [10,20] e quantos estão fora do intervalo,
+		//conforme exemplo
+
+		Locale.setDefault(Locale.US);
+		Scanner sc = new Scanner(System.in);
+		
+		int n, x, dentro, fora;
+		
+		System.out.println("Quantos numeros voce vai digitar? ");
+		n = sc.nextInt();
+		
+		
+		sc.close();
+	}
+
+}
