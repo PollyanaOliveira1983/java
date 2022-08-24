@@ -10,15 +10,17 @@
     <fullyQualifiedTypeName name="sun.awt.www.content.audio.x_aiff"/>
     <fullyQualifiedTypeName name="exercicioEstruturasCondicionais.notas"/>
     <fullyQualifiedTypeName name="entities.Triangle"/>
-    <fullyQualifiedTypeName name="entities.Product"/>
     <fullyQualifiedTypeName name="entities.Rectangle"/>
     <fullyQualifiedTypeName name="java.awt.geom.Area"/>
     <fullyQualifiedTypeName name="entities.Employee"/>
-    <fullyQualifiedTypeName name="java.lang.String"/>
     <fullyQualifiedTypeName name="com.sun.org.apache.xalan.internal.xsltc.compiler.util.NamedMethodGenerator"/>
     <fullyQualifiedTypeName name="entities.Student"/>
-    <fullyQualifiedTypeName name="java.util.Locale"/>
-    <fullyQualifiedTypeName name="java.util.Scanner"/>
     <fullyQualifiedTypeName name="util.Calculator"/>
     <fullyQualifiedTypeName name="util.CurrencyConverter"/>
+    <fullyQualifiedTypeName name="entities.Bill"/>
+    <fullyQualifiedTypeName name="java.util.Locale"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="java.lang.String"/>
+    <fullyQualifiedTypeName name="java.lang.Double"/>
+    <fullyQualifiedTypeName name="entities.Product"/>
 </qualifiedTypeNameHistroy>
