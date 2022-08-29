@@ -1,0 +1,24 @@
+package application;
+
+import java.util.Locale;
+import java.util.Scanner;
+
+import entities.Alturas;
+
+
+public class ProgramAlturas {
+
+	public static void main(String[] args) {
+		
+		Locale.setDefault(Locale.US);
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.print("Quantos numeros voce vai digitar? ");
+		int n = sc.nextInt();
+		
+		Alturas[] vect = new Alturas[n];
+		
+		System.out.printf("Dados da ", n + 1 , "pessoa: ");
+	}
+
+}

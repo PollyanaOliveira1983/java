@@ -1,0 +1,45 @@
+package application;
+
+import java.util.Locale;
+import java.util.Scanner;
+
+public class ProgramAprovados {
+
+	public static void main(String[] args) {
+		
+		Locale.setDefault(Locale.US);
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.print("Quantos alunos serao digitados? ");
+		int n = sc.nextInt();
+				
+		 String[] nome = new String[n];
+		 double[] nota01 = new double[n];
+		 double[] nota02 = new double[n];
+		
+		for (int i=0; i<n; i++) {
+			System.out.printf("Digite nome, primeira e segunda nota do %do aluno: \n ", i+1);
+			System.out.print("Nome: ");
+			nome[i] = sc.next();
+			nota01[i] = sc.nextDouble();
+			nota01[i] = sc.nextDouble();
+			
+		}
+		
+		int maisVelha = idades[0];
+		int posicao = 0;
+		
+		for (int i=1; i<n; i++) {
+			if (idades[i] > maisVelha) {
+				maisVelha = idades[i];
+				posicao = i;
+			}
+		}
+		
+		System.out.printf("PESSOA MAIS VELHA: %s\n", nome[posicao]);
+		
+		sc.close();
+
+	}
+
+}

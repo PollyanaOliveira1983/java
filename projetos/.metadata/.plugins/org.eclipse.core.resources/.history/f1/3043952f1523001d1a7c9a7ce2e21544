@@ -1,0 +1,25 @@
+package entities;
+
+public class Bill {
+	
+	public char gender;
+	public int beer;
+	public int barbecue;
+	public int softDrink;
+	
+	public double cover() {
+		
+	}
+	
+	public double feeding() {
+		
+	}
+	
+	public double ticket() {
+		
+	}
+	
+	public double total() {
+		
+	}
+}

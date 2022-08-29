@@ -1,0 +1,22 @@
+package entities;
+
+public class TaxPayer {
+	
+	private double salaryIncome;
+	private double servicesIncome;
+	private double capitalIncome;
+	private double healthSpending;
+	private double educationSpending;
+	
+	public TaxPayer(double salaryIncome, double servicesIncome, double capitalIncome, double healthSpending,
+			double educationSpending) {
+		
+		this.salaryIncome = salaryIncome;
+		this.servicesIncome = servicesIncome;
+		this.capitalIncome = capitalIncome;
+		this.healthSpending = healthSpending;
+		this.educationSpending = educationSpending;
+	}
+	
+	
+}

@@ -1,0 +1,30 @@
+package entities;
+
+public class Bill {
+	
+	public char gender;
+	public int beer;
+	public int barbecue;
+	public int softDrink;
+	
+	public double cover() {
+		
+	}
+	
+	public double feeding() {
+		
+	}
+	
+	public double ticket() {
+		if (gender == 'F') {
+			return 8.00;
+		}
+		else {
+			return 10.00;
+		}
+	}
+	
+	public double total() {
+		
+	}
+}

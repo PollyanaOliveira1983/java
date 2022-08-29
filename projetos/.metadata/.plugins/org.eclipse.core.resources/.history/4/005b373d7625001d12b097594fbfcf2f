@@ -1,0 +1,10 @@
+package entities;
+
+public class TaxPayer {
+	private double salaryIncome;
+	private double servicesIncome;
+	private double capitalIncome;
+	private double healthSpending;
+	private double educationSpending;
+	
+}
