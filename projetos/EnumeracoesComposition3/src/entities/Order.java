@@ -9,13 +9,13 @@ import entities.enums.OrderStatus;
 
 public class Order {
 
-	private static final SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy");
+	private static final SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy HH:mm:ss");
 	
 	private Date moment;
 	private OrderStatus status;
 	
 	private Client client;
-	private List<OrderItem> items = new ArrayList<>();
+	private List<OrderItem> items = new ArrayList<OrderItem>();
 	
 	public Order() {
 		
