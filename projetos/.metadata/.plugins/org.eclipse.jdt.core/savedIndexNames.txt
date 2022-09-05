@@ -6,7 +6,6 @@ INDEX VERSION 1.131+/home/polly/Documentos/DevSuperior/java/projetos/.metadata/.
 1614584287.index
 3554143564.index
 1544398381.index
-2016715858.index
 257851198.index
 4071426965.index
 3258094736.index
