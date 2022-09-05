@@ -1,14 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="entradaDeDados"/>
-    <fullyQualifiedTypeName name="sun.tools.serialver.resources.serialver"/>
-    <fullyQualifiedTypeName name="com.sun.org.apache.bcel.internal.generic.IF_ACMPEQ"/>
-    <fullyQualifiedTypeName name="com.sun.org.apache.xpath.internal.operations.And"/>
-    <fullyQualifiedTypeName name="exercicioEstruturasCondicionais.glicose"/>
-    <fullyQualifiedTypeName name="sun.awt.www.content.audio.x_aiff"/>
-    <fullyQualifiedTypeName name="exercicioEstruturasCondicionais.notas"/>
-    <fullyQualifiedTypeName name="entities.Triangle"/>
-    <fullyQualifiedTypeName name="entities.Rectangle"/>
     <fullyQualifiedTypeName name="java.awt.geom.Area"/>
     <fullyQualifiedTypeName name="com.sun.org.apache.xalan.internal.xsltc.compiler.util.NamedMethodGenerator"/>
     <fullyQualifiedTypeName name="entities.Student"/>
@@ -16,10 +7,8 @@
     <fullyQualifiedTypeName name="util.CurrencyConverter"/>
     <fullyQualifiedTypeName name="entities.Bill"/>
     <fullyQualifiedTypeName name="java.lang.Number"/>
-    <fullyQualifiedTypeName name="entities.Account"/>
     <fullyQualifiedTypeName name="javax.print.attribute.standard.MediaSize.Other"/>
     <fullyQualifiedTypeName name="entities.Champion"/>
-    <fullyQualifiedTypeName name="java.util.Locale"/>
     <fullyQualifiedTypeName name="java.util.Vector"/>
     <fullyQualifiedTypeName name="entities.Products"/>
     <fullyQualifiedTypeName name="jdk.javadoc.internal.doclets.toolkit.taglets.SummaryTaglet"/>
@@ -33,7 +22,6 @@
     <fullyQualifiedTypeName name="com.sun.org.apache.xml.internal.security.keys.content.MgmtData"/>
     <fullyQualifiedTypeName name="application.somaLinhas"/>
     <fullyQualifiedTypeName name="java.sql.Date"/>
-    <fullyQualifiedTypeName name="java.lang.System"/>
     <fullyQualifiedTypeName name="java.time.Instant"/>
     <fullyQualifiedTypeName name="java.util.TimeZone"/>
     <fullyQualifiedTypeName name="entities.enums.WorkerLevel"/>
@@ -43,21 +31,33 @@
     <fullyQualifiedTypeName name="entities.Comment"/>
     <fullyQualifiedTypeName name="entities.Post"/>
     <fullyQualifiedTypeName name="com.sun.org.apache.xerces.internal.impl.xpath.regex.ParseException"/>
-    <fullyQualifiedTypeName name="java.lang.Integer"/>
-    <fullyQualifiedTypeName name="java.text.SimpleDateFormat"/>
-    <fullyQualifiedTypeName name="java.util.Date"/>
     <fullyQualifiedTypeName name="entities.Client"/>
-    <fullyQualifiedTypeName name="java.lang.Override"/>
     <fullyQualifiedTypeName name="entities.Order"/>
     <fullyQualifiedTypeName name="entities.enums.OrderStatus"/>
-    <fullyQualifiedTypeName name="entities.Product"/>
     <fullyQualifiedTypeName name="entities.OrderItem"/>
+    <fullyQualifiedTypeName name="java.lang.StringBuilder"/>
+    <fullyQualifiedTypeName name="com.sun.tools.classfile.StackMapTable_attribute.append_frame"/>
+    <fullyQualifiedTypeName name="entities.Address"/>
+    <fullyQualifiedTypeName name="entities.Department"/>
+    <fullyQualifiedTypeName name="java.lang.Exception"/>
+    <fullyQualifiedTypeName name="com.sun.org.apache.xerces.internal.impl.dv.dtd.IDDatatypeValidator"/>
+    <fullyQualifiedTypeName name="entities.Account"/>
+    <fullyQualifiedTypeName name="entities.SavingsAccount"/>
+    <fullyQualifiedTypeName name="entities.BusinessAccount"/>
+    <fullyQualifiedTypeName name="java.lang.Integer"/>
     <fullyQualifiedTypeName name="java.util.Scanner"/>
-    <fullyQualifiedTypeName name="java.lang.Double"/>
+    <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="java.util.Locale"/>
     <fullyQualifiedTypeName name="java.util.List"/>
     <fullyQualifiedTypeName name="java.util.ArrayList"/>
-    <fullyQualifiedTypeName name="java.lang.String"/>
+    <fullyQualifiedTypeName name="entities.OutsourceEmployee"/>
     <fullyQualifiedTypeName name="entities.Employee"/>
-    <fullyQualifiedTypeName name="entities.Department"/>
-    <fullyQualifiedTypeName name="entities.Address"/>
+    <fullyQualifiedTypeName name="java.lang.Override"/>
+    <fullyQualifiedTypeName name="java.lang.String"/>
+    <fullyQualifiedTypeName name="java.lang.Double"/>
+    <fullyQualifiedTypeName name="java.util.Date"/>
+    <fullyQualifiedTypeName name="java.text.SimpleDateFormat"/>
+    <fullyQualifiedTypeName name="entities.UsedProduct"/>
+    <fullyQualifiedTypeName name="entities.ImportedProduct"/>
+    <fullyQualifiedTypeName name="entities.Product"/>
 </qualifiedTypeNameHistroy>
