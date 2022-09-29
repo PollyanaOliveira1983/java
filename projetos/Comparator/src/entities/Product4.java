@@ -1,14 +1,11 @@
 package entities;
 
-public class Product {
-	
+public class Product4 {
+
 	private String name;
 	private Double price;
 	
-	public Product() {
-	}
-
-	public Product(String name, Double price) {
+	public Product4(String name, Double price) {
 		this.name = name;
 		this.price = price;
 	}
@@ -29,8 +26,17 @@ public class Product {
 		this.price = price;
 	}
 
+	public String nonStaticUpperCaseName() {
+		return name.toUpperCase();
+	}
+	
+	public static String staticUpperCaseName(Product p) {
+		return p.getName().toUpperCase();
+	}
+	
 	@Override
 	public String toString() {
 		return name + ", " + String.format("%.2f", price);
 	}
 }
+

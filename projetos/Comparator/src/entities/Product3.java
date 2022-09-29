@@ -1,14 +1,11 @@
 package entities;
 
-public class Product {
-	
+public class Product3 {
+
 	private String name;
 	private Double price;
 	
-	public Product() {
-	}
-
-	public Product(String name, Double price) {
+	public Product3(String name, Double price) {
 		this.name = name;
 		this.price = price;
 	}
@@ -29,8 +26,17 @@ public class Product {
 		this.price = price;
 	}
 
+	public static void staticPriceUpdate(Product3 p) {
+		p.setPrice(p.getPrice() * 1.1);
+	}
+	
+	public void nonStaticPriceUpdate() {
+		price = price * 1.1;
+	}
+	
 	@Override
 	public String toString() {
 		return name + ", " + String.format("%.2f", price);
 	}
+	
 }
